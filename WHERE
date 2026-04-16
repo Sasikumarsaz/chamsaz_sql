@@ -1,0 +1,5 @@
+--Where is a condition, where we will provide a logical operator and binary operators to resolve the condition.(and, or,>,<,=,etc)
+
+SELECT first_name,last_name,email
+FROM customer
+WHERE first_name = 'Nancy' AND last_name = 'Thomas
