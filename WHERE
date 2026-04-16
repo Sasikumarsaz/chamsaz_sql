@@ -1,5 +1,5 @@
---Where is a condition, where we will provide a logical operator and binary operators to resolve the condition.(and, or,>,<,=,etc)
+--Where is a condition, where we will provide information or a value to find the data, using the logical operator and binary operators to resolve the condition.(and, or,>,<,=,etc)
 
-SELECT first_name,last_name,email
-FROM customer
-WHERE first_name = 'Nancy' AND last_name = 'Thomas
+SELECT column1,column2
+FROM table
+WHERE column1 = 'Nancy' AND last_name = 'Thomas
