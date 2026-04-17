@@ -9,3 +9,9 @@ SELECT *
 FROM address
 WHERE address = '259 Ipoh Drive'
 
+
+SELECT * FROM payment
+WHERE payment_id BETWEEN 17500 AND 17510
+ 
+SELECT * FROM payment
+WHERE payment_id NOT BETWEEN 17500 AND 17510
