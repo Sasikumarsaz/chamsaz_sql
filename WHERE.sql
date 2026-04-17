@@ -3,3 +3,9 @@
 SELECT column1,column2
 FROM table
 WHERE column1 = 'Nancy' AND last_name = 'Thomas
+
+
+SELECT *
+FROM address
+WHERE address = '259 Ipoh Drive'
+
